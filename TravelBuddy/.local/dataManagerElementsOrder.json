@@ -1,0 +1,40 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "destinationData&Sequence_1",
+        "dateData&Sequence_1",
+        "sourceData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Date",
+        "in_Destination",
+        "in_Source"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "data/ExtractDataFromUi.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_ExelName&Sequence_8",
+        "ExtractDataTable&Sequence_4",
+        "convertedDate&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

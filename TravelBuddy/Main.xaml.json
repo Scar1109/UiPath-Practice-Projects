@@ -4,5 +4,42 @@
   "HelpLink": null,
   "Color": null,
   "OriginalIconFileName": null,
-  "Arguments": []
+  "Arguments": [
+    {
+      "Name": "in_Source",
+      "DisplayName": "in_Source",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Mumbai",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Destination",
+      "DisplayName": "in_Destination",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Delhi",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Date",
+      "DisplayName": "in_Date",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
 }

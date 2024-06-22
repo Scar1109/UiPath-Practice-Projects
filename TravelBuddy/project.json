@@ -1,13 +1,15 @@
 {
   "name": "TravelBuddy",
-  "projectId": "e908802c-d8cc-4ec7-a580-eb83ed58068f",
-  "description": "Travel Buddy is a tool which scrap data for given",
+  "projectId": "c9653a36-29c5-4208-bcb2-b4c7e7aac5f6",
+  "description": "",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.3-preview]",
+    "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.6.23]",
     "UiPath.System.Activities": "[24.5.0-preview]",
     "UiPath.Testing.Activities": "[24.10.0-preview]",
-    "UiPath.UIAutomation.Activities": "[24.10.0-preview]",
-    "UiPath.WebAPI.Activities": "[1.20.1]"
+    "UiPath.UIAutomation.Activities": "[24.10.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -19,7 +21,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": false,
+    "requiresUserInteraction": true,
     "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
@@ -49,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "73282065-7a07-4a60-966f-1681da603e80",
+      "uniqueId": "2128bc4c-faf2-46ab-9578-a9cf992f73ca",
       "input": [],
       "output": []
     }
@@ -57,5 +59,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Portable"
+  "targetFramework": "Windows"
 }
