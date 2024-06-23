@@ -25,7 +25,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "data/ExtractDataFromUi.xaml",
+      "Path": "ExtractDataFromUi.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "str_ExelName&Sequence_8",
